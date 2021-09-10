@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
+*
+{
+    font-family: 'Ubuntu', sans-serif;
+}
+header{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-image: linear-gradient(white, gray);
+    /* background-image: url("images/shoes.jpg"); */
+    /* background: fixed; */
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 0px;
+    margin: 0px;
+}
+.shoes_image{
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+.right-nav{
+    padding: 0;
+    margin-top: 0;
+    position: relative;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    background-color: black;
+    justify-content: flex-end;
+}
+.white-logo{
+    position: absolute;
+    left: 0;
+    height: 35px;
+    padding: 10px 30px;
+}
+.right-nav li a{
+    line-height: 60px;
+    margin: 10px;
+    padding: 8px 20px;
+    /* background: rgb(97, 56, 47); */
+    color:white;
+    font-size: 25px;
+    font-weight: 500;
+    text-decoration: none;
+
+}
+.content{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* align-content: center; */
+    /* font-size: 8em; */
+}
+.content h2{
+    position: absolute  ;
+    left: 0;
+    margin-top: 500px;
+    font-size: 8em;
+    justify-content: right;
+}
+.content span{
+    margin: 0px 10px;
+    position: relative;
+    border: solid white 3px;
+    border-radius: 20%;
+}
+.shop-now{
+    text-decoration: none;
+    margin-top: 45%;
+    margin-left: 83%;
+    position: absolute;
+    color: white;
+    padding: 8px 20px;
+    background-color: black;
+    border-radius: 10px;
+    font-size: 2em;
+    
+}
+.shop-now:hover{
+    background-color: white;
+    color: black;
+    font-weight: 500;
+}
+section {
+    position: relative;
+    margin-top: 0px;
+    background-image: linear-gradient(black,gray) ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-around;
+}
+section::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top, black, transparent);
+    z-index: 10;
+    margin-top: -99px;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    padding: 60px;
+    background-color: transparent;
+    /* border: solid white 1px; */
+    color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 8px;
+}
+.card1 img{
+    margin-left: 0px;
+    width: 120px;
+    border-radius: 50%;
+}
+.card1 p{
+    margin-left: 20px;
+    margin-top: 30px;
+    align-items: center;
+    text-transform: uppercase;
+}
+.footer-container{
+    align-content: center;
+}
+.footer-links {
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    font-size: 2em;
+    color: black;
+}
+.footer-links li a{
+    margin-right: 20px;
+    color: black;
+}
+.hr-line{
+    margin-left: 30px;
+    margin-right: 30px;
+    border-top: solid white 1px;
+}
+ 
